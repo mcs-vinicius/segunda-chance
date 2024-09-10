@@ -23,7 +23,7 @@ export function AuthProvider({ children }: AuthProvidersProps) {
         nomeUsuario: '',
         usuario: '',
         senha: '',
-        foto: 'https://ik.imagekit.io/wzl99vhez/Segunda%20Chance/Perfil%20indefinido.png?updatedAt=1705682655295',
+        foto: '',
         token: ''
     })
 
@@ -37,7 +37,7 @@ export function AuthProvider({ children }: AuthProvidersProps) {
         try {
             await login(`/usuarios/logar`, userLogin, setUsuario)
             ToastAlerta("Usuário foi autenticado com sucesso!", 'sucesso')
-            setIsLoading(true)
+            setIsLoading(false)
 
         } catch (error: any) {
             if (error.response && error.response.data) {
@@ -55,7 +55,7 @@ export function AuthProvider({ children }: AuthProvidersProps) {
             nomeUsuario: '',
             usuario: '',
             senha: '',
-            foto: 'https://ik.imagekit.io/wzl99vhez/Segunda%20Chance/Perfil%20indefinido.png?updatedAt=1705682655295',
+            foto: '',
             token: ''
         })
     }
