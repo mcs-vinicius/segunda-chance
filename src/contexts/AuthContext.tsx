@@ -37,7 +37,7 @@ export function AuthProvider({ children }: AuthProvidersProps) {
         try {
             await login(`/usuarios/logar`, userLogin, setUsuario)
             ToastAlerta("Usuário foi autenticado com sucesso!", 'sucesso')
-            setIsLoading(false)
+            setIsLoading(true)
 
         } catch (error: any) {
             if (error.response && error.response.data) {
