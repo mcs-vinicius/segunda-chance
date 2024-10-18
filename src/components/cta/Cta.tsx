@@ -13,7 +13,7 @@ function Cta() {
             <div className="cta">
               <h1>Segunda Chance</h1>
               <p>As ruas clamam por socorro...</p>
-              <a className="button" href="/organizacao">Saiba Mais →</a>
+              
             </div>  
           </div> 
         </section>
