@@ -16,8 +16,6 @@ function ListarProdutos() {
   const token = usuario.token;
 
 
-  // Pode ignorar esse erro, que no caso estou criando um UseContext de useState, então o TypeScript fica perdido, mas na realidade não tem problema aqui. Até tem como resolver e parar de aparecer o erro, mas no momento não sei como
-
   const [context, setContext] = useContext(FiltroCat);
 
   function buscarPorCategoria() {
