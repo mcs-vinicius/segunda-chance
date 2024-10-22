@@ -12,7 +12,7 @@ function Organizacao() {
             <div className=" containerOrg grid items-center lg:grid-cols-2 lg:flex-row-reverse ">
               <div className="mb-12 lg:mb-0">
                 <div
-                  className="relative z-[1] block rounded-lg bg-[#000000] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[#a3957567] dark:shadow-black/20 md:px-12 lg:-mr-14">
+                  className="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[#a3957567] dark:shadow-black/20 md:px-12 lg:-mr-14">
                   <h2 className="mb-8 text-3xl orgStats">Salvando Gente</h2>
                   <p className="mb-8 pb-2 text-black lg:pb-0">
                     A ONG Salvando Gente é uma organização dedicada a oferecer apoio e esperança a pessoas que lutam contra a dependência química. Nossa missão é proporcionar tratamento, educação e recursos para aqueles que buscam recuperação.
