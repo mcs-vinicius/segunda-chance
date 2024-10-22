@@ -29,10 +29,10 @@ export function FavProvider({ children }: FavProviderProps) {
     function favoritarProduto(produto: Produto) {
         const indice = items.find(items => items.id === produto.id)
         if (indice !== undefined) {
-            ToastAlerta('Este Produto já foi Adicionado!', 'info')
+            ToastAlerta('Produto já adicionado aos Favoritos!', 'info')
         } else {
             setItems(state => [...state, produto])
-            ToastAlerta('Produto Adicionado!', 'sucesso')
+            ToastAlerta('Produto adicionado a lista de Favoritos!', 'sucesso')
         }
     }
 
