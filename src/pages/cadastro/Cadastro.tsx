@@ -92,7 +92,7 @@ function Cadastro() {
             {/* Foto */}
             <div className="user-box">
               <input type="text" id="foto" name="foto" value={usuario.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)} />
-              <label htmlFor="foto">Foto(URL da Foto)</label>
+              <label htmlFor="foto">Foto (URL da Foto)</label>
             </div>
 
             {/* Senha */}
